@@ -77,10 +77,10 @@ async function main(_buyer,_buyer_key,_seller,_seller_key,_price,_tokenId){
   }
 
 main(
+    process.env.a3_address,
+    process.env.a3_key,
     process.env.a1_address,
     process.env.a1_key,
-    process.env.a5_address,
-    process.env.a5_key,
     '6000000000',
-    '51'
+    '50'
   );
