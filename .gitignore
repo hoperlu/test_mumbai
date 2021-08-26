@@ -1,0 +1,8 @@
+test/
+node_modules/
+migrations/
+contracts/
+build/
+memo.docx
+package-lock.json
+.env
